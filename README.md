@@ -1,4 +1,4 @@
-![Houzez Mobile icon]("https://adilsoomro.github.io/houzez-mobile-app/assets/icon.png)
+![Houzez Mobile icon](https://raw.githubusercontent.com/AdilSoomro/houzez-mobile-app/master/assets/icon.png)
 
 
 
