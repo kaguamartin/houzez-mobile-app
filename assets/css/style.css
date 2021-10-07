@@ -24,7 +24,7 @@ abb {
 }
 
 a:hover {
-  color: #7b94c9;
+  color: #eb427e;
   text-decoration: none;
 }
 
@@ -390,6 +390,12 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 95%;
+  }
+  .details .content + .content {
+    margin-top: 50px !important;
+  }
+  section.details{
+    padding-top: 0 !important;
   }
 }
 
@@ -892,6 +898,26 @@ section {
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
+
+.button-blue {
+  background: #25ADDE;
+  padding: 8px 24px;
+  border: 2px solid #25ADDE;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+.button-blue:hover {
+  background: #fff;
+  padding: 8px 24px;
+   border: 2px solid #25ADDE;
+  color: #25ADDE;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
 .contact .php-email-form button[type=submit], .button-outlined {
   background: #fff;
   border: 2px solid #25ADDE;
@@ -901,6 +927,7 @@ section {
   border-radius: 50px;
   margin-top: 5px;
 }
+
 
 .contact .php-email-form button[type=submit]:hover, .button-outlined:hover{
   background: #25ADDE;
@@ -1065,7 +1092,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #27282c;
+  background: #eb427e;
   color: #fff;
   text-decoration: none;
 }
