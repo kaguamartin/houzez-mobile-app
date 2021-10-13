@@ -411,6 +411,10 @@ section {
   background-color: #f2f5fa;
 }
 
+.section-yellow {
+  background-color: #eee4b7;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
